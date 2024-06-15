@@ -1,47 +1,50 @@
-[
-  {
-    "id": 1,
-    "title": "Giới thiệu về Machine Learning",
-    "author": "Alice Johnson",
-    "date": "2024-01-10",
-    "content": "Machine learning là một nhánh của trí tuệ nhân tạo (AI) tập trung vào việc phát triển các thuật toán cho phép máy tính học từ dữ liệu và đưa ra dự đoán dựa trên dữ liệu đó. Nó bao gồm các kỹ thuật như học có giám sát, học không giám sát và học tăng cường.",
-    "tags": ["AI", "Machine Learning", "Khoa học Dữ liệu"],
-    "image": "https://example.com/images/machine-learning.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Hiểu về Điện toán Đám mây",
-    "author": "Bob Smith",
-    "date": "2024-02-15",
-    "content": "Điện toán đám mây là việc cung cấp các dịch vụ khác nhau thông qua Internet, bao gồm lưu trữ dữ liệu, máy chủ, cơ sở dữ liệu, mạng và phần mềm. Nó cung cấp sự đổi mới nhanh chóng, tài nguyên linh hoạt và quy mô kinh tế.",
-    "tags": ["Điện toán Đám mây", "AWS", "Azure"],
-    "image": "https://example.com/images/cloud-computing.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Hướng dẫn về Các Thực tiễn Tốt nhất trong An ninh mạng",
-    "author": "Charlie Davis",
-    "date": "2024-03-05",
-    "content": "An ninh mạng bao gồm việc bảo vệ các hệ thống máy tính, mạng và dữ liệu khỏi các cuộc tấn công kỹ thuật số. Các thực tiễn tốt nhất bao gồm sử dụng mật khẩu mạnh, bật xác thực đa yếu tố, thường xuyên cập nhật phần mềm và giáo dục nhân viên về các trò lừa đảo qua email.",
-    "tags": ["An ninh mạng", "Bảo mật Thông tin", "Thực tiễn Tốt nhất"],
-    "image": "https://example.com/images/cybersecurity.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Tương lai của Máy tính Lượng tử",
-    "author": "Dana Lee",
-    "date": "2024-04-20",
-    "content": "Máy tính lượng tử khai thác các tính chất độc đáo của cơ học lượng tử để giải quyết các vấn đề phức tạp vượt quá khả năng của các máy tính cổ điển. Nó hứa hẹn sẽ mang lại tiến bộ trong các lĩnh vực như mật mã học, khoa học vật liệu và phát hiện thuốc.",
-    "tags": ["Máy tính Lượng tử", "Công nghệ", "Tương lai"],
-    "image": "https://example.com/images/quantum-computing.jpg"
-  },
-  {
-    "id": 5,
-    "title": "Bắt đầu với DevOps",
-    "author": "Eve Martinez",
-    "date": "2024-05-18",
-    "content": "DevOps là một tập hợp các thực tiễn kết hợp phát triển phần mềm (Dev) và vận hành công nghệ thông tin (Ops). Nó nhằm rút ngắn chu kỳ phát triển hệ thống và cung cấp liên tục với chất lượng phần mềm cao. Các thực tiễn chính bao gồm tích hợp liên tục, phân phối liên tục và hạ tầng như mã.",
-    "tags": ["DevOps", "CI/CD", "Phát triển Phần mềm"],
-    "image": "https://example.com/images/devops.jpg"
-  }
-]
+{
+  "data":
+    [
+      {
+        "id": 1,
+        "title": "Giới thiệu về Machine Learning",
+        "author": "Alice Johnson",
+        "date": "2024-01-10",
+        "content": "Machine learning là một nhánh của trí tuệ nhân tạo (AI) tập trung vào việc phát triển các thuật toán cho phép máy tính học từ dữ liệu và đưa ra dự đoán dựa trên dữ liệu đó. Nó bao gồm các kỹ thuật như học có giám sát, học không giám sát và học tăng cường.",
+        "tags": ["AI", "Machine Learning", "Khoa học Dữ liệu"],
+        "image": "https://example.com/images/machine-learning.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Hiểu về Điện toán Đám mây",
+        "author": "Bob Smith",
+        "date": "2024-02-15",
+        "content": "Điện toán đám mây là việc cung cấp các dịch vụ khác nhau thông qua Internet, bao gồm lưu trữ dữ liệu, máy chủ, cơ sở dữ liệu, mạng và phần mềm. Nó cung cấp sự đổi mới nhanh chóng, tài nguyên linh hoạt và quy mô kinh tế.",
+        "tags": ["Điện toán Đám mây", "AWS", "Azure"],
+        "image": "https://example.com/images/cloud-computing.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Hướng dẫn về Các Thực tiễn Tốt nhất trong An ninh mạng",
+        "author": "Charlie Davis",
+        "date": "2024-03-05",
+        "content": "An ninh mạng bao gồm việc bảo vệ các hệ thống máy tính, mạng và dữ liệu khỏi các cuộc tấn công kỹ thuật số. Các thực tiễn tốt nhất bao gồm sử dụng mật khẩu mạnh, bật xác thực đa yếu tố, thường xuyên cập nhật phần mềm và giáo dục nhân viên về các trò lừa đảo qua email.",
+        "tags": ["An ninh mạng", "Bảo mật Thông tin", "Thực tiễn Tốt nhất"],
+        "image": "https://example.com/images/cybersecurity.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Tương lai của Máy tính Lượng tử",
+        "author": "Dana Lee",
+        "date": "2024-04-20",
+        "content": "Máy tính lượng tử khai thác các tính chất độc đáo của cơ học lượng tử để giải quyết các vấn đề phức tạp vượt quá khả năng của các máy tính cổ điển. Nó hứa hẹn sẽ mang lại tiến bộ trong các lĩnh vực như mật mã học, khoa học vật liệu và phát hiện thuốc.",
+        "tags": ["Máy tính Lượng tử", "Công nghệ", "Tương lai"],
+        "image": "https://example.com/images/quantum-computing.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Bắt đầu với DevOps",
+        "author": "Eve Martinez",
+        "date": "2024-05-18",
+        "content": "DevOps là một tập hợp các thực tiễn kết hợp phát triển phần mềm (Dev) và vận hành công nghệ thông tin (Ops). Nó nhằm rút ngắn chu kỳ phát triển hệ thống và cung cấp liên tục với chất lượng phần mềm cao. Các thực tiễn chính bao gồm tích hợp liên tục, phân phối liên tục và hạ tầng như mã.",
+        "tags": ["DevOps", "CI/CD", "Phát triển Phần mềm"],
+        "image": "https://example.com/images/devops.jpg"
+      }
+    ]
+}
